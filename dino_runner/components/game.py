@@ -108,6 +108,5 @@ class Game:
         self.screen.blit(ICONM, (half_screen_height +150, half_screen_width -310))
         self.screen.blit(ICONM, (half_screen_height +280, half_screen_width -310))
         
-
         pygame.display.update()
         self.habdle_events_on_menu()
