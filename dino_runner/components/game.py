@@ -55,7 +55,7 @@ class Game:
         self.score += 1
         if self.score % 100 == 0:
             self.game_speed += 5 
-            
+
 
     def draw(self):
         self.clock.tick(FPS)
@@ -107,6 +107,7 @@ class Game:
         self.screen.blit(ICON, (half_screen_height +411, half_screen_width -310))
         self.screen.blit(ICONM, (half_screen_height +150, half_screen_width -310))
         self.screen.blit(ICONM, (half_screen_height +280, half_screen_width -310))
+        
 
         pygame.display.update()
         self.habdle_events_on_menu()
